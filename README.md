@@ -1,13 +1,17 @@
 # CI/CD Pipeline Failure Root-Cause Analyst
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/ci-failure-analyst)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/shamas202/CI-Failure-Analyst-GitHub-App)
 
-A GitHub App that automatically analyzes CI/CD pipeline failures using AI and posts helpful comments on pull requests.
+**FREE** GitHub App that automatically analyzes CI/CD pipeline failures using AI and posts helpful comments on pull requests.
+
+> 💡 Uses **OpenRouter free tier** - no credit card required!
+
+---
 
 ## ✨ Features
 
 - **Automatic Failure Detection** - Listens to GitHub check run events
-- **AI-Powered Analysis** - Uses Anthropic's Claude 3 Haiku for fast, cheap analysis
+- **AI-Powered Analysis** - Uses Meta Llama 3.1 (free via OpenRouter)
 - **Smart Classification** - Categorizes failures as:
   - 🐛 Code regression
   - 🎲 Flaky test
@@ -15,46 +19,38 @@ A GitHub App that automatically analyzes CI/CD pipeline failures using AI and po
   - 📦 Dependency issue
   - 🔍 Unknown (with details)
 - **PR Comments** - Posts formatted analysis directly on pull requests
-- **Stateless** - No database, deploys in minutes to Vercel
+- **100% Free** - No database, no paid APIs, deploys free on Vercel
 
 ---
 
 ## 🚀 Quick Start
 
-**See [SETUP.md](SETUP.md) for detailed step-by-step instructions.**
+**See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed step-by-step instructions.**
 
-### 1. Install Dependencies
+### 1. Deploy to Vercel
 ```bash
-npm install
-```
-
-### 2. Configure Environment
-```bash
-cp .env.example .env.local
-# Edit .env.local with your credentials
-```
-
-### 3. Deploy to Vercel
-```bash
-npm install -g vercel
-vercel login
+# Already deployed? Skip to step 2
 vercel
 ```
 
-### 4. Set Environment Variables
-```bash
-vercel env add WEBHOOK_SECRET production
-vercel env add GITHUB_APP_ID production
-vercel env add GITHUB_APP_PRIVATE_KEY production
-vercel env add GITHUB_APP_CLIENT_ID production
-vercel env add GITHUB_APP_CLIENT_SECRET production
-vercel env add ANTHROPIC_API_KEY production
-```
+### 2. Get OpenRouter API Key (FREE)
+1. Go to: https://openrouter.ai/keys
+2. Sign up (free, no credit card)
+3. Create API Key
+4. Copy it
 
-### 5. Configure GitHub App
+### 3. Configure Vercel Environment Variables
+- `OPENROUTER_API_KEY` - Your OpenRouter key
+- `GITHUB_APP_ID` - Your GitHub App ID
+- `GITHUB_APP_PRIVATE_KEY` - Your GitHub App private key
+- `GITHUB_APP_CLIENT_ID` - Your GitHub App client ID
+- `GITHUB_APP_CLIENT_SECRET` - Your GitHub App client secret
+- `WEBHOOK_SECRET` - Your webhook secret
+
+### 4. Create GitHub App
 - Webhook URL: `https://your-app.vercel.app/api/webhook/github`
-- Subscribe to: Check runs
 - Permissions: Checks (R/W), Contents (R), Pull requests (R/W), Actions (R)
+- Subscribe to: Check runs
 
 ---
 
@@ -66,7 +62,7 @@ vercel env add ANTHROPIC_API_KEY production
 │   └── api/webhook/github/route.ts    # Webhook handler
 ├── lib/
 │   ├── analyzer/
-│   │   ├── classifier.ts              # AI failure analysis
+│   │   ├── classifier.ts              # AI failure analysis (OpenRouter)
 │   │   └── prompt.ts                  # Prompt templates
 │   ├── github/
 │   │   ├── client.ts                  # GitHub App auth
@@ -76,7 +72,8 @@ vercel env add ANTHROPIC_API_KEY production
 │   ├── webhook/
 │   │   └── verification.ts            # Signature verification
 │   └── types.ts                       # TypeScript types
-├── SETUP.md                           # Detailed setup guide
+├── SETUP_GUIDE.md                     # Detailed setup guide
+├── QUICK_START.md                     # Quick reference
 └── vercel.json                        # Vercel config (60s timeout)
 ```
 
@@ -84,14 +81,14 @@ vercel env add ANTHROPIC_API_KEY production
 
 ## 🔧 Environment Variables
 
-| Variable | Description |
-|----------|-------------|
-| `GITHUB_APP_ID` | Your GitHub App ID |
-| `GITHUB_APP_PRIVATE_KEY` | Private key (single line with `\n`) |
-| `GITHUB_APP_CLIENT_ID` | OAuth client ID |
-| `GITHUB_APP_CLIENT_SECRET` | OAuth client secret |
-| `WEBHOOK_SECRET` | Webhook signing secret |
-| `ANTHROPIC_API_KEY` | Anthropic API key |
+| Variable | Description | Where to Get |
+|----------|-------------|--------------|
+| `OPENROUTER_API_KEY` | OpenRouter API key (FREE) | https://openrouter.ai/keys |
+| `GITHUB_APP_ID` | Your GitHub App ID | GitHub App settings |
+| `GITHUB_APP_PRIVATE_KEY` | Private key (single line with `\n`) | GitHub App settings |
+| `GITHUB_APP_CLIENT_ID` | OAuth client ID | GitHub App settings |
+| `GITHUB_APP_CLIENT_SECRET` | OAuth client secret | GitHub App settings |
+| `WEBHOOK_SECRET` | Webhook signing secret | You create this |
 
 ---
 
@@ -101,7 +98,7 @@ vercel env add ANTHROPIC_API_KEY production
 2. **Verify** - App verifies signature with shared secret
 3. **Filter** - Only processes failures (`conclusion: failure/timed_out`)
 4. **Fetch** - Downloads CI logs and PR diff
-5. **Analyze** - Sends to Claude 3 Haiku for classification
+5. **Analyze** - Sends to OpenRouter (Llama 3.1 free model)
 6. **Comment** - Posts formatted analysis on the PR
 
 ---
@@ -132,9 +129,13 @@ Check the recent changes to `src/auth.ts`...
 
 ## 💰 Costs
 
-- **Vercel**: Free (Hobby tier)
-- **Anthropic**: ~$0.01-0.25 per analysis (Claude Haiku)
-- **GitHub**: Free for public repos
+| Service | Cost |
+|---------|------|
+| **Vercel** | Free (Hobby tier) |
+| **OpenRouter AI** | Free (Llama 3.1 free tier) |
+| **GitHub** | Free for public repos |
+
+**Total: $0** 🎉
 
 ---
 
@@ -150,6 +151,9 @@ Check the recent changes to `src/auth.ts`...
 ## 🛠️ Development
 
 ```bash
+# Install dependencies
+npm install
+
 # Run locally
 npm run dev
 
@@ -165,3 +169,13 @@ npm run build
 ## 📄 License
 
 MIT
+
+---
+
+## 🙏 Credits
+
+Built with:
+- [OpenRouter](https://openrouter.ai) - Free AI API
+- [Octokit](https://octokit.github.io/) - GitHub API client
+- [Next.js](https://nextjs.org/) - Web framework
+- [Vercel](https://vercel.com/) - Hosting

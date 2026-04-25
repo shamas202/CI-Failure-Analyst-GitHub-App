@@ -1,7 +1,7 @@
 {
   "name": "ci-failure-analyst",
   "version": "1.0.0",
-  "description": "GitHub App that analyzes CI/CD pipeline failures using AI",
+  "description": "GitHub App that analyzes CI/CD pipeline failures using AI (free tier)",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,6 @@
     "format-key": "node scripts/format-private-key.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.27.0",
     "@octokit/auth-app": "^6.0.4",
     "@octokit/plugin-retry": "^6.0.1",
     "@octokit/rest": "^20.0.2",

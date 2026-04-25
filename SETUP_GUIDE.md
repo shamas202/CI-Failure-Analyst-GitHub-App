@@ -1,6 +1,8 @@
-# 🧭 Complete Setup Guide
+# 🧭 Complete Setup Guide - FREE Version
 
 **Your code is deployed!** Now follow these exact steps.
+
+> 💡 This uses **OpenRouter FREE tier** - no credit card needed!
 
 ---
 
@@ -15,24 +17,24 @@
 
 ---
 
-## 🔑 Step 1: Get Anthropic API Key
+## 🔑 Step 1: Get OpenRouter API Key (FREE - 2 minutes)
 
-### 1.1 Go to Anthropic Console
+### 1.1 Go to OpenRouter
 ```
-https://console.anthropic.com
+https://openrouter.ai
 ```
 
 ### 1.2 Sign Up
-- Click "Sign Up" (top right)
-- Use Google or email
-- Verify email
+- Click **"Sign In"** (top right)
+- Sign in with Google or GitHub
+- **No credit card needed!**
 
 ### 1.3 Create API Key
-- Click **"Get API Keys"** (left sidebar)
+- Click **"Keys"** in the sidebar
 - Click **"Create Key"**
-- Name: `CI Failure Analyst`
-- Click **"Create key"**
-- **COPY THE KEY** (starts with `sk-ant-api`)
+- Name it: `CI Failure Analyst`
+- Click **"Create"**
+- **COPY THE KEY** (starts with `sk-or-...`)
 
 > 💾 Save in Notepad!
 
@@ -52,7 +54,7 @@ https://github.com/settings/apps
 ```
 Name: CI Failure Analyst
 
-Description: Analyzes CI failures using AI
+Description: Analyzes CI failures using AI (free tier)
 
 Homepage URL: https://github.com/shamas202/CI-Failure-Analyst-GitHub-App
 
@@ -146,8 +148,7 @@ When prompted:
 4. Paste in left box
 5. Find: `\n` (backslash + n)
 6. Replace with: `\\n` (two backslashes + n)
-7. Click "Compare" or "Replace"
-8. Copy result
+7. Copy result
 
 **Result looks like:**
 ```
@@ -176,12 +177,12 @@ Click **"New Variable"** for each:
 
 | Key | Value |
 |-----|-------|
+| `OPENROUTER_API_KEY` | Key from Step 1.3 (starts with `sk-or-`) |
 | `WEBHOOK_SECRET` | Your made-up password (Step 2.3) |
 | `GITHUB_APP_ID` | App ID number (Step 3.1) |
 | `GITHUB_APP_PRIVATE_KEY` | Formatted one-line key (Step 4) |
 | `GITHUB_APP_CLIENT_ID` | Client ID (Step 3.2) |
 | `GITHUB_APP_CLIENT_SECRET` | Client Secret (Step 3.4) |
-| `ANTHROPIC_API_KEY` | Anthropic key (Step 1.3) |
 
 For each variable:
 1. Click "New Variable"
@@ -243,21 +244,12 @@ https://github.com/settings/apps
 
 ## 🧪 Step 9: Test with Real PR
 
-### 9.1 Make a Change
-```bash
-# In your repository
-echo "# Test" >> README.md
-git add .
-git commit -m "Test CI Analyst"
-git push
-```
-
-### 9.2 Create Pull Request
+### 9.1 Create a Pull Request
 - Go to your repo on GitHub
-- Click "Pull requests" → "New pull request"
+- Make any change
 - Create PR
 
-### 9.3 Watch for Bot Comment
+### 9.2 Watch for Bot Comment
 - The test workflow will run
 - It will fail intentionally
 - Your bot should comment with analysis!
@@ -273,6 +265,7 @@ git push
 | "Auth failed" | PRIVATE_KEY must be one line with `\n` |
 | No bot comment | Check Vercel logs, verify permissions |
 | Build failed | Check all 6 variables are set |
+| "OPENROUTER_API_KEY not configured" | Add the variable and redeploy |
 
 ---
 
@@ -302,3 +295,14 @@ Test failed due to assertion error...
 ### Suggested Fix
 Check the changes to src/test.js...
 ```
+
+---
+
+## 💰 Cost Summary
+
+| Service | Cost |
+|---------|------|
+| Vercel | FREE |
+| OpenRouter (Llama 3.1) | FREE |
+| GitHub | FREE |
+| **TOTAL** | **$0** 🎉 |

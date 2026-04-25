@@ -1,13 +1,8 @@
-import Anthropic from '@anthropic-ai/sdk';
 import { FailureAnalysis } from '../types';
 import { SYSTEM_PROMPT, buildUserPrompt, parseAnalysisResponse } from './prompt';
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-});
-
 /**
- * Analyzes CI failure logs using Anthropic's Claude 3 Haiku model.
+ * Analyzes CI failure logs using OpenRouter API (free models).
  * Returns a structured failure analysis with classification and suggestions.
  *
  * @param logText - The CI log content
@@ -22,27 +17,58 @@ export async function analyzeFailure(
 
   const userPrompt = buildUserPrompt(logText, prDiff);
 
+  const openRouterApiKey = process.env.OPENROUTER_API_KEY;
+
+  if (!openRouterApiKey) {
+    console.error('[Analyzer] OPENROUTER_API_KEY not configured');
+    return {
+      type: 'unknown',
+      confidence: 'low',
+      summary: 'AI analysis not configured. Please set OPENROUTER_API_KEY environment variable.',
+      errorDetails: 'OPENROUTER_API_KEY environment variable is not set',
+    };
+  }
+
   try {
-    const response = await anthropic.messages.create({
-      model: 'claude-3-haiku-20240307',
-      max_tokens: 1024,
-      system: SYSTEM_PROMPT,
-      messages: [
-        {
-          role: 'user',
-          content: userPrompt,
-        },
-      ],
+    // Use OpenRouter API with free model
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${openRouterApiKey}`,
+        'Content-Type': 'application/json',
+        'HTTP-Referer': 'https://github.com/shamas202/CI-Failure-Analyst-GitHub-App',
+        'X-Title': 'CI Failure Analyst',
+      },
+      body: JSON.stringify({
+        // Free model: Meta Llama 3.1 8B Instruct
+        model: 'meta-llama/llama-3.1-8b-instruct:free',
+        max_tokens: 1024,
+        messages: [
+          {
+            role: 'system',
+            content: SYSTEM_PROMPT,
+          },
+          {
+            role: 'user',
+            content: userPrompt,
+          },
+        ],
+      }),
     });
 
-    // Extract text content from the response
-    const textContent = response.content.find((block) => block.type === 'text');
-
-    if (!textContent || textContent.type !== 'text') {
-      throw new Error('No text content in AI response');
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(`OpenRouter API error: ${response.status} - ${errorText}`);
     }
 
-    const analysis = parseAnalysisResponse(textContent.text);
+    const data = await response.json();
+    const aiResponse = data.choices?.[0]?.message?.content;
+
+    if (!aiResponse) {
+      throw new Error('No content in AI response');
+    }
+
+    const analysis = parseAnalysisResponse(aiResponse);
 
     if (!analysis) {
       // Fallback: create a basic unknown analysis
