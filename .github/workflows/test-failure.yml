@@ -1,0 +1,49 @@
+# Test workflow to verify CI Failure Analyst is working
+# This workflow intentionally fails so you can test the bot
+
+name: Test Failure - CI Analyst Demo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run typecheck
+        run: npm run typecheck
+
+      - name: This test intentionally fails (for demo)
+        run: |
+          echo "🧪 Running test suite..."
+          echo "✅ Test 1: Basic check - PASSED"
+          echo "✅ Test 2: Another check - PASSED"
+          echo "❌ Test 3: Intentional failure - FAILED"
+          echo ""
+          echo "Error: Assertion failed!"
+          echo "Expected: true"
+          echo "Received: false"
+          echo ""
+          echo "at test.test.js:42:15"
+          exit 1
+
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build (won't run if test fails)
+        run: echo "This won't run because test failed"
