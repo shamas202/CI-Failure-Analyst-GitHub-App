@@ -52,8 +52,10 @@ export async function fetchCiLogs(
     let workflowRunId: number | null = null;
 
     // Method 1: Try to get workflow run ID from check suite
-    if (checkRun.check_suite?.workflow_run?.id) {
-      workflowRunId = checkRun.check_suite.workflow_run.id;
+    // Type assertion needed because Octokit types don't include workflow_run
+    const checkSuite = checkRun.check_suite as { id: number; workflow_run?: { id: number } } | null;
+    if (checkSuite?.workflow_run?.id) {
+      workflowRunId = checkSuite.workflow_run.id;
       console.log(`[CI Logs] Found workflow run ID from check_suite: ${workflowRunId}`);
     }
 
@@ -71,15 +73,15 @@ export async function fetchCiLogs(
       return await fetchLogsByHeadSha(octokit, owner, repo, checkRun.head_sha);
     }
 
-    // Download the logs zip
-    const { data: logsZip, status } = await octokit.actions.downloadWorkflowRunLogs({
+    // Download the logs zip (returns ArrayBuffer directly)
+    const logsZip = await octokit.actions.downloadWorkflowRunLogs({
       owner,
       repo,
       run_id: workflowRunId,
     });
 
-    if (status !== 200 || !logsZip) {
-      throw new Error(`Failed to download logs: status ${status}`);
+    if (!logsZip || !(logsZip instanceof ArrayBuffer)) {
+      throw new Error('Failed to download logs: empty response');
     }
 
     // Extract text files from the zip

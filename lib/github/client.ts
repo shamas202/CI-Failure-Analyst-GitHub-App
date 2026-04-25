@@ -57,9 +57,9 @@ export async function getOctokit(installationId: number): Promise<Octokit> {
   const auth = await appOctokit.auth({
     type: 'installation',
     installationId,
-  });
+  }) as Promise<{ token: string }>;
 
-  const token = auth.token;
+  const token = (auth as unknown as { token: string }).token;
 
   // Token expires in 1 hour by default, cache it
   const expiresAt = Date.now() + 55 * 60 * 1000; // 55 minutes buffer

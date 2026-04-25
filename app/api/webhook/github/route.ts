@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { GitHubWebhookPayload, FailureAnalysis } from '../../../lib/types';
-import { verifyWebhookSignature, getWebhookEventType } from '../../../lib/webhook/verification';
-import { getOctokit } from '../../../lib/github/client';
-import { fetchCiLogs, fetchPRDiff } from '../../../lib/github/logs';
-import { analyzeFailure } from '../../../lib/analyzer/classifier';
+import { GitHubWebhookPayload, FailureAnalysis } from '@/lib/types';
+import { verifyWebhookSignature, getWebhookEventType } from '@/lib/webhook/verification';
+import { getOctokit } from '@/lib/github/client';
+import { fetchCiLogs, fetchPRDiff } from '@/lib/github/logs';
+import { analyzeFailure } from '@/lib/analyzer/classifier';
 
 /**
  * GET endpoint for health checks.
@@ -39,7 +39,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 
     // Verify webhook signature
     const webhookSecret = process.env.WEBHOOK_SECRET;
-    if (!verifyWebhookSignature(rawBody, signature, webhookSecret || '')) {
+    if (!verifyWebhookSignature(rawBody, signature ?? undefined, webhookSecret || '')) {
       console.warn(`${logPrefix} Invalid webhook signature`);
       return NextResponse.json(
         { success: false, error: 'Invalid signature' },
@@ -50,7 +50,7 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
     console.log(`${logPrefix} Signature verified`);
 
     // Check event type
-    const eventType = getWebhookEventType(githubEvent);
+    const eventType = getWebhookEventType(githubEvent ?? undefined);
     if (eventType !== 'check_run') {
       console.log(`${logPrefix} Ignoring non-check_run event: ${eventType}`);
       return NextResponse.json({ success: true, message: 'Event ignored' });
