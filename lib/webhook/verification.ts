@@ -1,0 +1,92 @@
+import { createHmac, timingSafeEqual } from 'node:crypto';
+
+/**
+ * Verifies the GitHub webhook signature using the shared secret.
+ * GitHub sends the signature in the x-hub-signature-256 header.
+ *
+ * @param body - The raw request body as a string or Buffer
+ * @param signature - The x-hub-signature-256 header value
+ * @param secret - The webhook secret from environment variables
+ * @returns true if the signature is valid, false otherwise
+ */
+export function verifyWebhookSignature(
+  body: string | Buffer,
+  signature: string | undefined,
+  secret: string
+): boolean {
+  if (!signature) {
+    console.log('[Webhook Verification] No signature provided');
+    return false;
+  }
+
+  if (!secret) {
+    console.log('[Webhook Verification] No secret configured');
+    return false;
+  }
+
+  try {
+    // GitHub sends signature as "sha256=<hex>"
+    const [algorithm, githubHash] = signature.split('=');
+
+    if (algorithm !== 'sha256') {
+      console.log('[Webhook Verification] Unknown algorithm:', algorithm);
+      return false;
+    }
+
+    if (!githubHash) {
+      console.log('[Webhook Verification] No hash in signature');
+      return false;
+    }
+
+    // Compute our own HMAC-SHA256
+    const bodyBuffer = Buffer.isBuffer(body) ? body : Buffer.from(body);
+    const computedHash = createHmac('sha256', secret)
+      .update(bodyBuffer)
+      .digest('hex');
+
+    // Use timing-safe comparison to prevent timing attacks
+    const githubHashBuffer = Buffer.from(githubHash, 'hex');
+    const computedHashBuffer = Buffer.from(computedHash, 'hex');
+
+    if (githubHashBuffer.length !== computedHashBuffer.length) {
+      console.log('[Webhook Verification] Hash length mismatch');
+      return false;
+    }
+
+    const isValid = timingSafeEqual(githubHashBuffer, computedHashBuffer);
+
+    if (!isValid) {
+      console.log('[Webhook Verification] Signature mismatch');
+    }
+
+    return isValid;
+  } catch (error) {
+    console.error('[Webhook Verification] Error verifying signature:', error);
+    return false;
+  }
+}
+
+/**
+ * Extracts and validates the GitHub webhook event type from headers.
+ *
+ * @param githubEvent - The x-github-event header value
+ * @returns The event type or null if invalid
+ */
+export function getWebhookEventType(githubEvent: string | undefined): string | null {
+  if (!githubEvent) {
+    return null;
+  }
+
+  // GitHub sometimes sends "ping" events for webhook testing
+  if (githubEvent === 'ping') {
+    return 'ping';
+  }
+
+  // We only care about check_run events
+  if (githubEvent === 'check_run') {
+    return 'check_run';
+  }
+
+  console.log('[Webhook Verification] Unexpected event type:', githubEvent);
+  return githubEvent;
+}
