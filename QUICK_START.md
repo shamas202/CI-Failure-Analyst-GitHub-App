@@ -1,6 +1,6 @@
 # 🚀 Quick Start - 3 Essential Steps
 
-Your project is deployed! Just do these 3 things:
+Your project is deployed! Just do these 3 things::
 
 ---
 
