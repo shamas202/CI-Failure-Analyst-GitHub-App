@@ -87,3 +87,4 @@ git push -u origin main
 # Refinement 318: Standardizing code style and formatting
 # Refinement 321: Adding internal developer notes
 # Refinement 341: Refining variable names for clarity
+# Refinement 440: Adding descriptive comments for better maintainability
