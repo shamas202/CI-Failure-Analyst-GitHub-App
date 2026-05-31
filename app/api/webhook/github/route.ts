@@ -287,3 +287,4 @@ Refinement 346: Adding descriptive comments for better maintainability
 Refinement 400: Minor refactoring of function calls
 Refinement 407: Adding descriptive comments for better maintainability
 Refinement 425: Updating documentation for future reference
+Refinement 437: Improving consistency across the module
