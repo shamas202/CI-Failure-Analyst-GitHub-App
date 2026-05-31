@@ -193,3 +193,4 @@ Built with:
 # Refinement 186: Optimizing logic in small sections
 # Refinement 228: Cleaning up whitespace and indentations
 # Refinement 251: Improving code documentation
+# Refinement 313: Improving consistency across the module
