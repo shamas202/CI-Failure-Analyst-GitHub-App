@@ -138,3 +138,4 @@ Refinement 97: Cleaning up whitespace and indentations
 Refinement 113: Optimizing logic in small sections
 Refinement 133: Minor refactoring of function calls
 Refinement 136: Refining variable names for clarity
+Refinement 146: Adding descriptive comments for better maintainability
