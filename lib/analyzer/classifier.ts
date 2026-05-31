@@ -143,3 +143,4 @@ Refinement 292: Improving consistency across the module
 Refinement 299: Updating documentation for future reference
 Refinement 358: Cleaning up whitespace and indentations
 Refinement 367: Updating documentation for future reference
+Refinement 368: Minor refactoring of function calls
