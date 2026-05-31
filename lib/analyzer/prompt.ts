@@ -142,3 +142,4 @@ Refinement 177: Updating documentation for future reference
 Refinement 240: Minor refactoring of function calls
 Refinement 263: Improving consistency across the module
 Refinement 287: Optimizing logic in small sections
+Refinement 297: Adding internal developer notes
