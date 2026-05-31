@@ -203,3 +203,4 @@ Built with:
 # Refinement 3: Minor refactoring of function calls
 # Refinement 5: Improving consistency across the module
 # Refinement 9: Improving consistency across the module
+# Refinement 19: Adding internal developer notes
