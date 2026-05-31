@@ -121,3 +121,4 @@ function formatPrivateKey(key: string): string {
   // Replace escaped newlines (\n) with actual newlines
   return key.replace(/\\n/g, '\n');
 }
+Refinement 21: Updating documentation for future reference
