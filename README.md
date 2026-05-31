@@ -216,3 +216,4 @@ Built with:
 # Refinement 178: Adding descriptive comments for better maintainability
 # Refinement 189: Updating documentation for future reference
 # Refinement 190: Optimizing logic in small sections
+# Refinement 371: Updating documentation for future reference
