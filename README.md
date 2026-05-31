@@ -208,3 +208,4 @@ Built with:
 # Refinement 71: Cleaning up whitespace and indentations
 # Refinement 73: Standardizing code style and formatting
 # Refinement 98: Minor refactoring of function calls
+# Refinement 104: Standardizing code style and formatting
