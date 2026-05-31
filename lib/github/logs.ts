@@ -302,3 +302,4 @@ Refinement 262: Cleaning up whitespace and indentations
 Refinement 266: Adding descriptive comments for better maintainability
 Refinement 286: Updating documentation for future reference
 Refinement 334: Updating documentation for future reference
+Refinement 388: Optimizing logic in small sections
