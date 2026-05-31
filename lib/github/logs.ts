@@ -264,3 +264,4 @@ Refinement 61: Updating documentation for future reference
 Refinement 75: Cleaning up whitespace and indentations
 Refinement 92: Minor refactoring of function calls
 Refinement 146: Updating documentation for future reference
+Refinement 153: Improving consistency across the module
