@@ -217,3 +217,4 @@ Built with:
 # Refinement 189: Updating documentation for future reference
 # Refinement 190: Optimizing logic in small sections
 # Refinement 371: Updating documentation for future reference
+# Refinement 396: Cleaning up whitespace and indentations
