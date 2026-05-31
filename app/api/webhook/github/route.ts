@@ -280,3 +280,4 @@ Refinement 97: Improving consistency across the module
 Refinement 121: Refining variable names for clarity
 Refinement 197: Improving code documentation
 Refinement 237: Updating documentation for future reference
+Refinement 242: Cleaning up whitespace and indentations
