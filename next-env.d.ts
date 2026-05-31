@@ -17,3 +17,4 @@ Refinement 298: Adding descriptive comments for better maintainability
 Refinement 321: Adding descriptive comments for better maintainability
 Refinement 348: Optimizing logic in small sections
 Refinement 349: Adding internal developer notes
+Refinement 366: Optimizing logic in small sections
