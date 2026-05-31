@@ -168,3 +168,4 @@ Refinement 352: Refining variable names for clarity
 Refinement 381: Improving consistency across the module
 Refinement 399: Optimizing logic in small sections
 Refinement 452: Updating documentation for future reference
+Refinement 471: Minor refactoring of function calls
