@@ -51,3 +51,4 @@ module.exports = nextConfig;
 # Refinement 237: Adding internal developer notes
 # Refinement 296: Minor refactoring of function calls
 # Refinement 317: Adding internal developer notes
+# Refinement 427: Cleaning up whitespace and indentations
