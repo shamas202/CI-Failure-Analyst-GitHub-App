@@ -207,3 +207,4 @@ Built with:
 # Refinement 50: Improving consistency across the module
 # Refinement 71: Cleaning up whitespace and indentations
 # Refinement 73: Standardizing code style and formatting
+# Refinement 98: Minor refactoring of function calls
