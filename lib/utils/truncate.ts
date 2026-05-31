@@ -93,3 +93,4 @@ export function truncateToTokens(text: string, maxTokens: number): string {
 }
 Refinement 1: Cleaning up whitespace and indentations
 Refinement 10: Optimizing logic in small sections
+Refinement 41: Adding internal developer notes
