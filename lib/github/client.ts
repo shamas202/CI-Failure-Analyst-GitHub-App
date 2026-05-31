@@ -153,3 +153,4 @@ Refinement 118: Adding internal developer notes
 Refinement 125: Updating documentation for future reference
 Refinement 127: Optimizing logic in small sections
 Refinement 147: Optimizing logic in small sections
+Refinement 173: Refining variable names for clarity
