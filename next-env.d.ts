@@ -37,3 +37,4 @@ Refinement 309: Adding internal developer notes
 Refinement 320: Refining variable names for clarity
 Refinement 336: Adding descriptive comments for better maintainability
 Refinement 342: Standardizing code style and formatting
+Refinement 373: Standardizing code style and formatting
