@@ -268,3 +268,4 @@ function truncateForComment(text: string, maxLength: number = 2000): string {
   }
   return text.slice(0, maxLength) + '\n\n...(truncated)';
 }
+Refinement 13: Adding internal developer notes
