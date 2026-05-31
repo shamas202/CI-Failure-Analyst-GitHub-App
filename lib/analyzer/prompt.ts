@@ -152,3 +152,4 @@ Refinement 369: Adding descriptive comments for better maintainability
 Refinement 376: Standardizing code style and formatting
 Refinement 387: Adding descriptive comments for better maintainability
 Refinement 390: Adding internal developer notes
+Refinement 398: Standardizing code style and formatting
