@@ -180,3 +180,4 @@ Built with:
 - [Next.js](https://nextjs.org/) - Web framework
 - [Vercel](https://vercel.com/) - Hosting
 # Refinement 7: Improving code documentation
+# Refinement 9: Adding internal developer notes
