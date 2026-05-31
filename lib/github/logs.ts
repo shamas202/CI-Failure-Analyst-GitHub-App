@@ -305,3 +305,4 @@ Refinement 334: Updating documentation for future reference
 Refinement 388: Optimizing logic in small sections
 Refinement 411: Improving code documentation
 Refinement 449: Minor refactoring of function calls
+Refinement 467: Minor refactoring of function calls
