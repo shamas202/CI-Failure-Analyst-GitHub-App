@@ -32,3 +32,4 @@ console.log('');
 # Refinement 256: Improving code documentation
 # Refinement 292: Adding internal developer notes
 # Refinement 296: Improving consistency across the module
+# Refinement 314: Adding internal developer notes
