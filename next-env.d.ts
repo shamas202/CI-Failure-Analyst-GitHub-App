@@ -35,3 +35,4 @@ Refinement 270: Improving code documentation
 Refinement 278: Improving consistency across the module
 Refinement 309: Adding internal developer notes
 Refinement 320: Refining variable names for clarity
+Refinement 336: Adding descriptive comments for better maintainability
