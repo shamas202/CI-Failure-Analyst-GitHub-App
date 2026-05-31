@@ -128,3 +128,4 @@ Refinement 67: Improving code documentation
 Refinement 73: Minor refactoring of function calls
 Refinement 77: Adding internal developer notes
 Refinement 104: Adding internal developer notes
+Refinement 134: Updating documentation for future reference
