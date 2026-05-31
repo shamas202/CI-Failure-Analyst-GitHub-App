@@ -103,3 +103,4 @@ main().catch(console.error);
 # Refinement 226: Standardizing code style and formatting
 # Refinement 257: Updating documentation for future reference
 # Refinement 344: Improving code documentation
+# Refinement 370: Minor refactoring of function calls
