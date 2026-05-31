@@ -37,3 +37,4 @@ Refinement 165: Standardizing code style and formatting
 Refinement 181: Updating documentation for future reference
 Refinement 266: Optimizing logic in small sections
 Refinement 301: Improving code documentation
+Refinement 324: Improving code documentation
