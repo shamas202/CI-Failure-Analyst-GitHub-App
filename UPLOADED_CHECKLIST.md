@@ -56,3 +56,4 @@ git push -u origin main
 4. Follow [SETUP.md](SETUP.md) for remaining steps
 # Refinement 28: Adding descriptive comments for better maintainability
 # Refinement 30: Standardizing code style and formatting
+# Refinement 68: Standardizing code style and formatting
