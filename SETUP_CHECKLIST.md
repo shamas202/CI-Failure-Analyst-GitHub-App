@@ -210,3 +210,4 @@ Tell me which step you're stuck on!
 # Refinement 168: Standardizing code style and formatting
 # Refinement 174: Improving code documentation
 # Refinement 216: Improving consistency across the module
+# Refinement 241: Adding descriptive comments for better maintainability
