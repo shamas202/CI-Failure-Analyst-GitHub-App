@@ -98,3 +98,4 @@ Refinement 37: Updating documentation for future reference
 Refinement 39: Standardizing code style and formatting
 Refinement 52: Updating documentation for future reference
 Refinement 53: Minor refactoring of function calls
+Refinement 60: Improving code documentation
