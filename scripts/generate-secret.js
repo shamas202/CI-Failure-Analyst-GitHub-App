@@ -38,3 +38,4 @@ console.log('');
 # Refinement 350: Adding descriptive comments for better maintainability
 # Refinement 410: Improving code documentation
 # Refinement 433: Updating documentation for future reference
+# Refinement 472: Cleaning up whitespace and indentations
