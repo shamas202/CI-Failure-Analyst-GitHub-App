@@ -31,3 +31,4 @@ Refinement 85: Minor refactoring of function calls
 Refinement 88: Cleaning up whitespace and indentations
 Refinement 130: Adding descriptive comments for better maintainability
 Refinement 243: Updating documentation for future reference
+Refinement 270: Improving code documentation
