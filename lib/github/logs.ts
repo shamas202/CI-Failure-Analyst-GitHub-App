@@ -299,3 +299,4 @@ Refinement 232: Adding internal developer notes
 Refinement 255: Refining variable names for clarity
 Refinement 260: Standardizing code style and formatting
 Refinement 262: Cleaning up whitespace and indentations
+Refinement 266: Adding descriptive comments for better maintainability
