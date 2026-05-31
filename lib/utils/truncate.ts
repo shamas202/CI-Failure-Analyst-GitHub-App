@@ -128,3 +128,4 @@ Refinement 345: Refining variable names for clarity
 Refinement 406: Cleaning up whitespace and indentations
 Refinement 456: Standardizing code style and formatting
 Refinement 472: Cleaning up whitespace and indentations
+Refinement 481: Adding descriptive comments for better maintainability
