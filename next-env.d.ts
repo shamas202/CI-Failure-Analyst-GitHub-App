@@ -29,3 +29,4 @@ Refinement 52: Updating documentation for future reference
 Refinement 70: Improving consistency across the module
 Refinement 85: Minor refactoring of function calls
 Refinement 88: Cleaning up whitespace and indentations
+Refinement 130: Adding descriptive comments for better maintainability
