@@ -92,3 +92,4 @@ export function truncateToTokens(text: string, maxTokens: number): string {
   return truncateFromEnd(text, maxChars);
 }
 Refinement 1: Cleaning up whitespace and indentations
+Refinement 10: Optimizing logic in small sections
