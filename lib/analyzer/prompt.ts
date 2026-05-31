@@ -115,3 +115,4 @@ Refinement 241: Adding internal developer notes
 Refinement 248: Updating documentation for future reference
 Refinement 281: Optimizing logic in small sections
 Refinement 286: Cleaning up whitespace and indentations
+Refinement 308: Updating documentation for future reference
