@@ -282,3 +282,4 @@ Refinement 197: Improving code documentation
 Refinement 237: Updating documentation for future reference
 Refinement 242: Cleaning up whitespace and indentations
 Refinement 311: Cleaning up whitespace and indentations
+Refinement 338: Cleaning up whitespace and indentations
