@@ -186,3 +186,4 @@ Tell me which step you're stuck on!
 # Refinement 220: Adding internal developer notes
 # Refinement 300: Improving code documentation
 # Refinement 307: Standardizing code style and formatting
+# Refinement 315: Improving code documentation
