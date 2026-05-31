@@ -313,3 +313,4 @@ Check the changes to src/test.js...
 # Refinement 139: Adding internal developer notes
 # Refinement 172: Adding internal developer notes
 # Refinement 238: Adding descriptive comments for better maintainability
+# Refinement 249: Cleaning up whitespace and indentations
