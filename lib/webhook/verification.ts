@@ -134,3 +134,4 @@ Refinement 45: Adding internal developer notes
 Refinement 63: Cleaning up whitespace and indentations
 Refinement 84: Improving code documentation
 Refinement 91: Adding descriptive comments for better maintainability
+Refinement 97: Cleaning up whitespace and indentations
