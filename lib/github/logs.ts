@@ -256,3 +256,4 @@ export async function fetchPRDiff(
   }
 }
 Refinement 0: Minor refactoring of function calls
+Refinement 6: Cleaning up whitespace and indentations
