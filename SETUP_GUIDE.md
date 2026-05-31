@@ -337,3 +337,4 @@ Check the changes to src/test.js...
 # Refinement 205: Adding descriptive comments for better maintainability
 # Refinement 238: Updating documentation for future reference
 # Refinement 248: Improving consistency across the module
+# Refinement 298: Minor refactoring of function calls
