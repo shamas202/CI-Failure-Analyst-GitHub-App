@@ -320,3 +320,4 @@ Check the changes to src/test.js...
 # Refinement 388: Adding internal developer notes
 # Refinement 393: Cleaning up whitespace and indentations
 # Refinement 397: Cleaning up whitespace and indentations
+# Refinement 420: Updating documentation for future reference
