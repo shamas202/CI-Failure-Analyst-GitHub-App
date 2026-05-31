@@ -24,3 +24,4 @@ module.exports = nextConfig;
 # Refinement 199: Standardizing code style and formatting
 # Refinement 246: Updating documentation for future reference
 # Refinement 253: Adding internal developer notes
+# Refinement 271: Minor refactoring of function calls
