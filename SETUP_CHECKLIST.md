@@ -208,3 +208,4 @@ Tell me which step you're stuck on!
 # Refinement 129: Cleaning up whitespace and indentations
 # Refinement 141: Adding descriptive comments for better maintainability
 # Refinement 168: Standardizing code style and formatting
+# Refinement 174: Improving code documentation
