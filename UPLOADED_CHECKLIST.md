@@ -58,3 +58,4 @@ git push -u origin main
 # Refinement 30: Standardizing code style and formatting
 # Refinement 68: Standardizing code style and formatting
 # Refinement 90: Cleaning up whitespace and indentations
+# Refinement 119: Minor refactoring of function calls
