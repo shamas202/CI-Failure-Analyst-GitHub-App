@@ -149,3 +149,4 @@ Refinement 289: Refining variable names for clarity
 Refinement 294: Minor refactoring of function calls
 Refinement 315: Adding descriptive comments for better maintainability
 Refinement 340: Adding descriptive comments for better maintainability
+Refinement 374: Improving code documentation
