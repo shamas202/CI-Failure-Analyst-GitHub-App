@@ -70,3 +70,4 @@ ANTHROPIC_API_KEY = (from Anthropic console)
 # Refinement 31: Updating documentation for future reference
 # Refinement 33: Improving code documentation
 # Refinement 136: Adding internal developer notes
+# Refinement 169: Minor refactoring of function calls
