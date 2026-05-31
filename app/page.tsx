@@ -40,3 +40,4 @@ Refinement 301: Improving code documentation
 Refinement 324: Improving code documentation
 Refinement 344: Cleaning up whitespace and indentations
 Refinement 354: Optimizing logic in small sections
+Refinement 468: Adding descriptive comments for better maintainability
