@@ -181,3 +181,4 @@ Built with:
 - [Vercel](https://vercel.com/) - Hosting
 # Refinement 7: Improving code documentation
 # Refinement 9: Adding internal developer notes
+# Refinement 26: Cleaning up whitespace and indentations
