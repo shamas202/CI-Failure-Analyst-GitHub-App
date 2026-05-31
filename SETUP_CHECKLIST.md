@@ -206,3 +206,4 @@ Tell me which step you're stuck on!
 # Refinement 75: Improving code documentation
 # Refinement 110: Cleaning up whitespace and indentations
 # Refinement 129: Cleaning up whitespace and indentations
+# Refinement 141: Adding descriptive comments for better maintainability
