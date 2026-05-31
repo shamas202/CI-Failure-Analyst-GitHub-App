@@ -16,3 +16,4 @@ export default function RootLayout({
 }
 Refinement 58: Refining variable names for clarity
 Refinement 72: Improving code documentation
+Refinement 84: Adding internal developer notes
