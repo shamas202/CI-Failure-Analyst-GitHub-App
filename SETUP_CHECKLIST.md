@@ -181,3 +181,4 @@ Tell me which step you're stuck on!
 # Refinement 47: Adding internal developer notes
 # Refinement 79: Refining variable names for clarity
 # Refinement 150: Adding internal developer notes
+# Refinement 178: Standardizing code style and formatting
