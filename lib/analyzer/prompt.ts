@@ -109,3 +109,4 @@ Refinement 111: Updating documentation for future reference
 Refinement 126: Adding internal developer notes
 Refinement 128: Cleaning up whitespace and indentations
 Refinement 149: Adding descriptive comments for better maintainability
+Refinement 174: Improving code documentation
