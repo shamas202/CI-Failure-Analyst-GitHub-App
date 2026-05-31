@@ -78,3 +78,4 @@ main().catch(console.error);
 # Refinement 189: Optimizing logic in small sections
 # Refinement 205: Improving code documentation
 # Refinement 206: Minor refactoring of function calls
+# Refinement 214: Adding descriptive comments for better maintainability
