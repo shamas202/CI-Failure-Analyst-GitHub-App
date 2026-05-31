@@ -57,3 +57,4 @@ console.log('');
 # Refinement 279: Standardizing code style and formatting
 # Refinement 331: Standardizing code style and formatting
 # Refinement 360: Improving code documentation
+# Refinement 377: Adding descriptive comments for better maintainability
