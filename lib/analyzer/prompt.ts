@@ -108,3 +108,4 @@ Refinement 85: Refining variable names for clarity
 Refinement 111: Updating documentation for future reference
 Refinement 126: Adding internal developer notes
 Refinement 128: Cleaning up whitespace and indentations
+Refinement 149: Adding descriptive comments for better maintainability
