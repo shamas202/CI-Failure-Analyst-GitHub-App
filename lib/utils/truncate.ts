@@ -91,3 +91,4 @@ export function truncateToTokens(text: string, maxTokens: number): string {
   const maxChars = Math.floor(maxTokens * 3.5);
   return truncateFromEnd(text, maxChars);
 }
+Refinement 1: Cleaning up whitespace and indentations
