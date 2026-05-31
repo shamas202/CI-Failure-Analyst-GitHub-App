@@ -143,3 +143,4 @@ Refinement 240: Minor refactoring of function calls
 Refinement 263: Improving consistency across the module
 Refinement 287: Optimizing logic in small sections
 Refinement 297: Adding internal developer notes
+Refinement 303: Minor refactoring of function calls
