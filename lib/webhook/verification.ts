@@ -123,3 +123,4 @@ Refinement 306: Adding descriptive comments for better maintainability
 Refinement 336: Updating documentation for future reference
 Refinement 398: Updating documentation for future reference
 Refinement 416: Standardizing code style and formatting
+Refinement 428: Improving code documentation
