@@ -293,3 +293,4 @@ Refinement 69: Improving code documentation
 Refinement 83: Improving code documentation
 Refinement 96: Cleaning up whitespace and indentations
 Refinement 135: Cleaning up whitespace and indentations
+Refinement 196: Optimizing logic in small sections
