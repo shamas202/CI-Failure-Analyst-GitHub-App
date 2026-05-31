@@ -178,3 +178,4 @@ Tell me which step you're stuck on!
 # Refinement 11: Minor refactoring of function calls
 # Refinement 15: Updating documentation for future reference
 # Refinement 16: Improving consistency across the module
+# Refinement 47: Adding internal developer notes
