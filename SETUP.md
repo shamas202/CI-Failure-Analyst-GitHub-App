@@ -231,3 +231,4 @@ Set a budget alert on Anthropic to stay safe!
 # Refinement 153: Improving code documentation
 # Refinement 154: Minor refactoring of function calls
 # Refinement 163: Minor refactoring of function calls
+# Refinement 187: Updating documentation for future reference
