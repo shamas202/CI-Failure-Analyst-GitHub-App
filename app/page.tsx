@@ -52,3 +52,4 @@ Refinement 192: Improving code documentation
 Refinement 195: Adding internal developer notes
 Refinement 202: Refining variable names for clarity
 Refinement 280: Cleaning up whitespace and indentations
+Refinement 283: Adding descriptive comments for better maintainability
