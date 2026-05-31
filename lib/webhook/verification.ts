@@ -90,3 +90,4 @@ export function getWebhookEventType(githubEvent: string | undefined): string | n
   console.log('[Webhook Verification] Unexpected event type:', githubEvent);
   return githubEvent;
 }
+Refinement 4: Standardizing code style and formatting
