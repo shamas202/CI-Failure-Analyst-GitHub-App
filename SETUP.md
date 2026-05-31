@@ -229,3 +229,4 @@ Set a budget alert on Anthropic to stay safe!
 # Refinement 76: Cleaning up whitespace and indentations
 # Refinement 102: Improving consistency across the module
 # Refinement 153: Improving code documentation
+# Refinement 154: Minor refactoring of function calls
