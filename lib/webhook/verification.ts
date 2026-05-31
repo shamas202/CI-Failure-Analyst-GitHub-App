@@ -132,3 +132,4 @@ Refinement 10: Adding internal developer notes
 Refinement 14: Minor refactoring of function calls
 Refinement 45: Adding internal developer notes
 Refinement 63: Cleaning up whitespace and indentations
+Refinement 84: Improving code documentation
