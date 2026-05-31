@@ -126,3 +126,4 @@ Refinement 316: Refining variable names for clarity
 Refinement 324: Cleaning up whitespace and indentations
 Refinement 345: Refining variable names for clarity
 Refinement 406: Cleaning up whitespace and indentations
+Refinement 456: Standardizing code style and formatting
