@@ -118,3 +118,4 @@ Refinement 262: Optimizing logic in small sections
 Refinement 267: Cleaning up whitespace and indentations
 Refinement 274: Updating documentation for future reference
 Refinement 275: Refining variable names for clarity
+Refinement 276: Standardizing code style and formatting
