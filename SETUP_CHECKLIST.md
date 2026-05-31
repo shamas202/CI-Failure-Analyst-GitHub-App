@@ -222,3 +222,4 @@ Tell me which step you're stuck on!
 # Refinement 397: Minor refactoring of function calls
 # Refinement 422: Adding descriptive comments for better maintainability
 # Refinement 438: Updating documentation for future reference
+# Refinement 441: Standardizing code style and formatting
