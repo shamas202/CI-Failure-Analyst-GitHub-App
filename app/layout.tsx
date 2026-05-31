@@ -19,3 +19,4 @@ Refinement 72: Improving code documentation
 Refinement 84: Adding internal developer notes
 Refinement 91: Improving code documentation
 Refinement 94: Standardizing code style and formatting
+Refinement 118: Updating documentation for future reference
