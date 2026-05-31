@@ -147,3 +147,4 @@ Refinement 332: Minor refactoring of function calls
 Refinement 354: Minor refactoring of function calls
 Refinement 375: Adding internal developer notes
 Refinement 419: Improving consistency across the module
+Refinement 426: Standardizing code style and formatting
