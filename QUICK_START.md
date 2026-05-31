@@ -98,3 +98,4 @@ ANTHROPIC_API_KEY = (from Anthropic console)
 # Refinement 199: Cleaning up whitespace and indentations
 # Refinement 201: Cleaning up whitespace and indentations
 # Refinement 247: Minor refactoring of function calls
+# Refinement 261: Optimizing logic in small sections
