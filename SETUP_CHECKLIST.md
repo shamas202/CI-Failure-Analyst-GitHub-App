@@ -220,3 +220,4 @@ Tell me which step you're stuck on!
 # Refinement 339: Cleaning up whitespace and indentations
 # Refinement 394: Standardizing code style and formatting
 # Refinement 397: Minor refactoring of function calls
+# Refinement 422: Adding descriptive comments for better maintainability
