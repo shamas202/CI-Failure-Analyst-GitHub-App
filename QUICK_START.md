@@ -88,3 +88,4 @@ ANTHROPIC_API_KEY = (from Anthropic console)
 # Refinement 387: Improving consistency across the module
 # Refinement 430: Improving consistency across the module
 # Refinement 436: Adding internal developer notes
+# Refinement 6: Adding internal developer notes
