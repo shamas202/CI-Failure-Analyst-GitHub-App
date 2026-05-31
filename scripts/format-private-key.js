@@ -85,3 +85,4 @@ main().catch(console.error);
 # Refinement 272: Refining variable names for clarity
 # Refinement 317: Adding descriptive comments for better maintainability
 # Refinement 347: Refining variable names for clarity
+# Refinement 390: Improving code documentation
