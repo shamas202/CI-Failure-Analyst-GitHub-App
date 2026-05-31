@@ -139,3 +139,4 @@ Refinement 150: Adding descriptive comments for better maintainability
 Refinement 151: Optimizing logic in small sections
 Refinement 160: Standardizing code style and formatting
 Refinement 177: Updating documentation for future reference
+Refinement 240: Minor refactoring of function calls
