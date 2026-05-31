@@ -275,3 +275,4 @@ Refinement 265: Cleaning up whitespace and indentations
 Refinement 291: Improving consistency across the module
 Refinement 294: Standardizing code style and formatting
 Refinement 335: Adding internal developer notes
+Refinement 339: Adding descriptive comments for better maintainability
