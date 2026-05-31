@@ -323,3 +323,4 @@ Check the changes to src/test.js...
 # Refinement 420: Updating documentation for future reference
 # Refinement 439: Standardizing code style and formatting
 # Refinement 446: Cleaning up whitespace and indentations
+# Refinement 449: Adding descriptive comments for better maintainability
