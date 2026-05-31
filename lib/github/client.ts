@@ -163,3 +163,4 @@ Refinement 281: Minor refactoring of function calls
 Refinement 285: Adding descriptive comments for better maintainability
 Refinement 343: Updating documentation for future reference
 Refinement 346: Cleaning up whitespace and indentations
+Refinement 350: Adding internal developer notes
