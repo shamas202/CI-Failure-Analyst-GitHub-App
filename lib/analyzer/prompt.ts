@@ -105,3 +105,4 @@ Refinement 27: Cleaning up whitespace and indentations
 Refinement 48: Refining variable names for clarity
 Refinement 63: Refining variable names for clarity
 Refinement 85: Refining variable names for clarity
+Refinement 111: Updating documentation for future reference
