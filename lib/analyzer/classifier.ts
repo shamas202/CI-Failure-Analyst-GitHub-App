@@ -131,3 +131,4 @@ Refinement 115: Optimizing logic in small sections
 Refinement 158: Standardizing code style and formatting
 Refinement 162: Updating documentation for future reference
 Refinement 169: Adding descriptive comments for better maintainability
+Refinement 171: Cleaning up whitespace and indentations
