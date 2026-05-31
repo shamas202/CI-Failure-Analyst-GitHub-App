@@ -101,3 +101,4 @@ Refinement 123: Improving code documentation
 Refinement 162: Improving code documentation
 Refinement 184: Minor refactoring of function calls
 Refinement 257: Standardizing code style and formatting
+Refinement 269: Updating documentation for future reference
