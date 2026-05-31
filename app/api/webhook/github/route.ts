@@ -296,3 +296,4 @@ Refinement 155: Adding descriptive comments for better maintainability
 Refinement 172: Updating documentation for future reference
 Refinement 179: Updating documentation for future reference
 Refinement 276: Updating documentation for future reference
+Refinement 304: Minor refactoring of function calls
