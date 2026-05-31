@@ -301,3 +301,4 @@ Refinement 326: Updating documentation for future reference
 Refinement 328: Improving consistency across the module
 Refinement 364: Adding internal developer notes
 Refinement 372: Minor refactoring of function calls
+Refinement 407: Updating documentation for future reference
