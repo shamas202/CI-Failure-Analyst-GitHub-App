@@ -144,3 +144,4 @@ Refinement 132: Improving consistency across the module
 Refinement 161: Updating documentation for future reference
 Refinement 194: Updating documentation for future reference
 Refinement 220: Refining variable names for clarity
+Refinement 288: Minor refactoring of function calls
