@@ -103,3 +103,4 @@ Refinement 62: Improving code documentation
 Refinement 66: Improving code documentation
 Refinement 69: Standardizing code style and formatting
 Refinement 70: Cleaning up whitespace and indentations
+Refinement 83: Adding descriptive comments for better maintainability
