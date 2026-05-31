@@ -297,3 +297,4 @@ Refinement 172: Updating documentation for future reference
 Refinement 179: Updating documentation for future reference
 Refinement 276: Updating documentation for future reference
 Refinement 304: Minor refactoring of function calls
+Refinement 326: Updating documentation for future reference
