@@ -20,3 +20,4 @@ module.exports = nextConfig;
 # Refinement 145: Cleaning up whitespace and indentations
 # Refinement 152: Cleaning up whitespace and indentations
 # Refinement 167: Improving code documentation
+# Refinement 171: Cleaning up whitespace and indentations
