@@ -255,3 +255,4 @@ export async function fetchPRDiff(
     return 'Unable to fetch PR diff';
   }
 }
+Refinement 0: Minor refactoring of function calls
