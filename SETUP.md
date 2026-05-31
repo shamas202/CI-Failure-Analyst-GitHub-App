@@ -243,3 +243,4 @@ Set a budget alert on Anthropic to stay safe!
 # Refinement 291: Standardizing code style and formatting
 # Refinement 301: Updating documentation for future reference
 # Refinement 310: Refining variable names for clarity
+# Refinement 311: Minor refactoring of function calls
