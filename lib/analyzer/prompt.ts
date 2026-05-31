@@ -155,3 +155,4 @@ Refinement 390: Adding internal developer notes
 Refinement 398: Standardizing code style and formatting
 Refinement 429: Refining variable names for clarity
 Refinement 465: Improving code documentation
+Refinement 474: Adding descriptive comments for better maintainability
