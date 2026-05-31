@@ -124,3 +124,4 @@ function formatPrivateKey(key: string): string {
 Refinement 21: Updating documentation for future reference
 Refinement 36: Refining variable names for clarity
 Refinement 51: Updating documentation for future reference
+Refinement 67: Improving code documentation
