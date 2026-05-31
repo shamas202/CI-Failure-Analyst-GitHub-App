@@ -191,3 +191,4 @@ Tell me which step you're stuck on!
 # Refinement 329: Optimizing logic in small sections
 # Refinement 359: Updating documentation for future reference
 # Refinement 365: Adding descriptive comments for better maintainability
+# Refinement 368: Cleaning up whitespace and indentations
