@@ -247,3 +247,4 @@ Set a budget alert on Anthropic to stay safe!
 # Refinement 319: Adding internal developer notes
 # Refinement 356: Cleaning up whitespace and indentations
 # Refinement 366: Refining variable names for clarity
+# Refinement 378: Adding descriptive comments for better maintainability
