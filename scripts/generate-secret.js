@@ -25,3 +25,4 @@ console.log('');
 # Refinement 125: Optimizing logic in small sections
 # Refinement 138: Refining variable names for clarity
 # Refinement 212: Improving code documentation
+# Refinement 218: Cleaning up whitespace and indentations
