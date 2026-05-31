@@ -59,3 +59,4 @@ git push -u origin main
 # Refinement 68: Standardizing code style and formatting
 # Refinement 90: Cleaning up whitespace and indentations
 # Refinement 119: Minor refactoring of function calls
+# Refinement 195: Updating documentation for future reference
