@@ -120,3 +120,4 @@ Refinement 333: Improving consistency across the module
 Refinement 337: Improving code documentation
 Refinement 377: Improving consistency across the module
 Refinement 440: Adding descriptive comments for better maintainability
+Refinement 450: Minor refactoring of function calls
