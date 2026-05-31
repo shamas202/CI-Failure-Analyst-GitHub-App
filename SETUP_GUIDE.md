@@ -311,3 +311,4 @@ Check the changes to src/test.js...
 # Refinement 100: Improving consistency across the module
 # Refinement 113: Improving code documentation
 # Refinement 139: Adding internal developer notes
+# Refinement 172: Adding internal developer notes
