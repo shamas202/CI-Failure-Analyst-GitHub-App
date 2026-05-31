@@ -27,3 +27,4 @@ export default function Home() {
   );
 }
 Refinement 22: Improving code documentation
+Refinement 96: Adding descriptive comments for better maintainability
