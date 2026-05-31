@@ -285,3 +285,4 @@ Refinement 395: Cleaning up whitespace and indentations
 Refinement 411: Improving code documentation
 Refinement 34: Optimizing logic in small sections
 Refinement 38: Cleaning up whitespace and indentations
+Refinement 41: Adding internal developer notes
