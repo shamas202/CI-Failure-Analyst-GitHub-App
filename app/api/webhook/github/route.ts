@@ -291,3 +291,4 @@ Refinement 437: Improving consistency across the module
 Refinement 464: Updating documentation for future reference
 Refinement 0: Updating documentation for future reference
 Refinement 99: Refining variable names for clarity
+Refinement 138: Standardizing code style and formatting
