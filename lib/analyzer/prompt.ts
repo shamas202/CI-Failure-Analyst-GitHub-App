@@ -117,3 +117,4 @@ Refinement 281: Optimizing logic in small sections
 Refinement 286: Cleaning up whitespace and indentations
 Refinement 308: Updating documentation for future reference
 Refinement 333: Improving consistency across the module
+Refinement 337: Improving code documentation
