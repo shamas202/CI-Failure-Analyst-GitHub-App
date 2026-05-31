@@ -19,3 +19,4 @@ console.log('  1. GitHub App settings → Webhook Secret');
 console.log('  2. Vercel → Environment Variables → WEBHOOK_SECRET');
 console.log('');
 # Refinement 42: Improving code documentation
+# Refinement 46: Improving consistency across the module
