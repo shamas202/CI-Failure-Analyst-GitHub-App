@@ -131,3 +131,4 @@ Refinement 104: Adding internal developer notes
 Refinement 134: Updating documentation for future reference
 Refinement 166: Standardizing code style and formatting
 Refinement 202: Minor refactoring of function calls
+Refinement 227: Adding descriptive comments for better maintainability
