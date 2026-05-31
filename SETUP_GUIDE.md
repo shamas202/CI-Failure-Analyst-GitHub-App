@@ -318,3 +318,4 @@ Check the changes to src/test.js...
 # Refinement 330: Optimizing logic in small sections
 # Refinement 386: Updating documentation for future reference
 # Refinement 388: Adding internal developer notes
+# Refinement 393: Cleaning up whitespace and indentations
