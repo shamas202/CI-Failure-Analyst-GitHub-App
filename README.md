@@ -214,3 +214,4 @@ Built with:
 # Refinement 157: Adding internal developer notes
 # Refinement 165: Minor refactoring of function calls
 # Refinement 178: Adding descriptive comments for better maintainability
+# Refinement 189: Updating documentation for future reference
