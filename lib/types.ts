@@ -146,3 +146,4 @@ Refinement 194: Updating documentation for future reference
 Refinement 220: Refining variable names for clarity
 Refinement 288: Minor refactoring of function calls
 Refinement 289: Refining variable names for clarity
+Refinement 294: Minor refactoring of function calls
