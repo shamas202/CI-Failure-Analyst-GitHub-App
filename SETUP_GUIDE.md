@@ -346,3 +346,4 @@ Check the changes to src/test.js...
 # Refinement 415: Cleaning up whitespace and indentations
 # Refinement 417: Updating documentation for future reference
 # Refinement 424: Improving code documentation
+# Refinement 432: Improving code documentation
