@@ -122,3 +122,4 @@ function formatPrivateKey(key: string): string {
   return key.replace(/\\n/g, '\n');
 }
 Refinement 21: Updating documentation for future reference
+Refinement 36: Refining variable names for clarity
