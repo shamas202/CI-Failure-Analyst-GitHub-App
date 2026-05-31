@@ -277,3 +277,4 @@ Refinement 86: Adding internal developer notes
 Refinement 93: Adding descriptive comments for better maintainability
 Refinement 95: Cleaning up whitespace and indentations
 Refinement 97: Improving consistency across the module
+Refinement 121: Refining variable names for clarity
