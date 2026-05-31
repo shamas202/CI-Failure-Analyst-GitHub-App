@@ -101,3 +101,4 @@ export function parseAnalysisResponse(response: string): {
   }
 }
 Refinement 17: Adding descriptive comments for better maintainability
+Refinement 27: Cleaning up whitespace and indentations
