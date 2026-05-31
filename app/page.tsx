@@ -58,3 +58,4 @@ Refinement 300: Cleaning up whitespace and indentations
 Refinement 322: Improving consistency across the module
 Refinement 361: Improving consistency across the module
 Refinement 392: Improving code documentation
+Refinement 402: Improving code documentation
