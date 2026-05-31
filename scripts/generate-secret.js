@@ -39,3 +39,4 @@ console.log('');
 # Refinement 410: Improving code documentation
 # Refinement 433: Updating documentation for future reference
 # Refinement 472: Cleaning up whitespace and indentations
+# Refinement 12: Improving code documentation
