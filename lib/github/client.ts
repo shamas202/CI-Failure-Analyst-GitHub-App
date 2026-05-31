@@ -149,3 +149,4 @@ Refinement 39: Standardizing code style and formatting
 Refinement 64: Adding descriptive comments for better maintainability
 Refinement 82: Updating documentation for future reference
 Refinement 117: Updating documentation for future reference
+Refinement 118: Adding internal developer notes
