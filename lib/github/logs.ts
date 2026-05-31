@@ -288,3 +288,4 @@ Refinement 38: Cleaning up whitespace and indentations
 Refinement 41: Adding internal developer notes
 Refinement 47: Improving consistency across the module
 Refinement 62: Adding internal developer notes
+Refinement 68: Adding descriptive comments for better maintainability
