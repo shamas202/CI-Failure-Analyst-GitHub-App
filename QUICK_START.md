@@ -66,3 +66,4 @@ ANTHROPIC_API_KEY = (from Anthropic console)
 ---
 
 **For detailed steps, see SETUP_CHECKLIST.md**
+# Refinement 25: Improving consistency across the module
