@@ -27,3 +27,4 @@ Refinement 244: Minor refactoring of function calls
 Refinement 261: Cleaning up whitespace and indentations
 Refinement 293: Optimizing logic in small sections
 Refinement 364: Improving consistency across the module
+Refinement 396: Optimizing logic in small sections
