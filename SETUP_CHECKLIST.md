@@ -215,3 +215,4 @@ Tell me which step you're stuck on!
 # Refinement 265: Cleaning up whitespace and indentations
 # Refinement 269: Updating documentation for future reference
 # Refinement 272: Updating documentation for future reference
+# Refinement 308: Refining variable names for clarity
