@@ -185,3 +185,4 @@ Built with:
 # Refinement 108: Standardizing code style and formatting
 # Refinement 116: Adding internal developer notes
 # Refinement 130: Improving code documentation
+# Refinement 137: Adding descriptive comments for better maintainability
