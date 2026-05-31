@@ -105,3 +105,4 @@ Refinement 69: Standardizing code style and formatting
 Refinement 70: Cleaning up whitespace and indentations
 Refinement 83: Adding descriptive comments for better maintainability
 Refinement 99: Adding descriptive comments for better maintainability
+Refinement 102: Updating documentation for future reference
