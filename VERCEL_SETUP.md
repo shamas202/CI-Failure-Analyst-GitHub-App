@@ -188,3 +188,4 @@ Create a PR in your repo. The test workflow will fail and the bot should comment
 # Refinement 312: Cleaning up whitespace and indentations
 # Refinement 325: Standardizing code style and formatting
 # Refinement 365: Improving code documentation
+# Refinement 393: Standardizing code style and formatting
