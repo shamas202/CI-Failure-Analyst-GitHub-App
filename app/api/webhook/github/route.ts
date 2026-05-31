@@ -285,3 +285,4 @@ Refinement 311: Cleaning up whitespace and indentations
 Refinement 338: Cleaning up whitespace and indentations
 Refinement 346: Adding descriptive comments for better maintainability
 Refinement 400: Minor refactoring of function calls
+Refinement 407: Adding descriptive comments for better maintainability
