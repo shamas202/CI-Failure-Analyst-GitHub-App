@@ -201,3 +201,4 @@ Tell me which step you're stuck on!
 # Refinement 438: Adding descriptive comments for better maintainability
 # Refinement 467: Refining variable names for clarity
 # Refinement 4: Standardizing code style and formatting
+# Refinement 18: Adding internal developer notes
