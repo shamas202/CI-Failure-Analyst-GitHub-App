@@ -87,3 +87,4 @@ ANTHROPIC_API_KEY = (from Anthropic console)
 # Refinement 320: Standardizing code style and formatting
 # Refinement 387: Improving consistency across the module
 # Refinement 430: Improving consistency across the module
+# Refinement 436: Adding internal developer notes
