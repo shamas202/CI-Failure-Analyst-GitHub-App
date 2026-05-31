@@ -145,3 +145,4 @@ Refinement 418: Improving consistency across the module
 Refinement 451: Adding descriptive comments for better maintainability
 Refinement 473: Improving consistency across the module
 Refinement 13: Minor refactoring of function calls
+Refinement 39: Standardizing code style and formatting
