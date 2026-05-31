@@ -179,3 +179,4 @@ Built with:
 - [Octokit](https://octokit.github.io/) - GitHub API client
 - [Next.js](https://nextjs.org/) - Web framework
 - [Vercel](https://vercel.com/) - Hosting
+# Refinement 7: Improving code documentation
