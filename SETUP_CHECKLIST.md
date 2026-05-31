@@ -219,3 +219,4 @@ Tell me which step you're stuck on!
 # Refinement 338: Standardizing code style and formatting
 # Refinement 339: Cleaning up whitespace and indentations
 # Refinement 394: Standardizing code style and formatting
+# Refinement 397: Minor refactoring of function calls
