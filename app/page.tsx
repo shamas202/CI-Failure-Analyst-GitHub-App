@@ -57,3 +57,4 @@ Refinement 293: Standardizing code style and formatting
 Refinement 300: Cleaning up whitespace and indentations
 Refinement 322: Improving consistency across the module
 Refinement 361: Improving consistency across the module
+Refinement 392: Improving code documentation
