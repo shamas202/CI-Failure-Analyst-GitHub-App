@@ -51,3 +51,4 @@ Refinement 416: Adding descriptive comments for better maintainability
 Refinement 442: Improving consistency across the module
 Refinement 446: Adding internal developer notes
 Refinement 458: Improving code documentation
+Refinement 462: Cleaning up whitespace and indentations
