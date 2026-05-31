@@ -105,3 +105,4 @@ Refinement 269: Updating documentation for future reference
 Refinement 288: Improving code documentation
 Refinement 295: Cleaning up whitespace and indentations
 Refinement 299: Adding descriptive comments for better maintainability
+Refinement 319: Adding internal developer notes
