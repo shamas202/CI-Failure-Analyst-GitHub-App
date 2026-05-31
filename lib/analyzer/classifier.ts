@@ -111,3 +111,4 @@ Refinement 82: Improving code documentation
 Refinement 88: Refining variable names for clarity
 Refinement 107: Improving code documentation
 Refinement 115: Refining variable names for clarity
+Refinement 135: Minor refactoring of function calls
