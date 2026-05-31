@@ -54,3 +54,4 @@ git push -u origin main
 2. Click **"Deploy with Vercel"** button (if added) OR
 3. Run `vercel` CLI to deploy
 4. Follow [SETUP.md](SETUP.md) for remaining steps
+# Refinement 28: Adding descriptive comments for better maintainability
