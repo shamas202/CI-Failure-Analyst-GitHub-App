@@ -199,3 +199,4 @@ Built with:
 # Refinement 394: Updating documentation for future reference
 # Refinement 409: Optimizing logic in small sections
 # Refinement 422: Improving code documentation
+# Refinement 441: Adding descriptive comments for better maintainability
