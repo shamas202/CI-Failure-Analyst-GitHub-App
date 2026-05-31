@@ -338,3 +338,4 @@ Check the changes to src/test.js...
 # Refinement 238: Updating documentation for future reference
 # Refinement 248: Improving consistency across the module
 # Refinement 298: Minor refactoring of function calls
+# Refinement 329: Updating documentation for future reference
