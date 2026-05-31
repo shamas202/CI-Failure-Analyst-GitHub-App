@@ -100,3 +100,4 @@ export function parseAnalysisResponse(response: string): {
     return null;
   }
 }
+Refinement 17: Adding descriptive comments for better maintainability
