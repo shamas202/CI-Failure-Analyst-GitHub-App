@@ -73,3 +73,4 @@ async function main() {
 
 main().catch(console.error);
 # Refinement 12: Improving consistency across the module
+# Refinement 14: Minor refactoring of function calls
